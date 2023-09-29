@@ -1,7 +1,5 @@
 import { useRef } from "react"
-
 function AddUser({addName,addMail,addUser}){
-
     let name  = useRef();
     let mail = useRef();
     function del (){
