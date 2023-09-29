@@ -3,6 +3,7 @@ import './App.css';
 import {useEffect, useState} from 'react';
 import User from './User';
 import AddUser from './AddUser';
+
 function App() {
   const [user, setUser] = useState([]);
   const [name, setName] = useState('');
@@ -59,7 +60,6 @@ function App() {
       });
   }
   
-
   return (
     <div className="App">
       <AddUser  addName={adName} addMail={adMail} addUser={adUser} />
